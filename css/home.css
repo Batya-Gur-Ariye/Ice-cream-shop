@@ -1,0 +1,103 @@
+.backGround {
+    width: 100%;
+    opacity: 2%;
+    position: absolute;
+    position: fixed;
+    padding: 0px;
+}
+
+.logo {
+    margin-left: 44%;
+    float: top;
+    position: absolute;
+    z-index: 1;
+    width: 12%;
+    margin-top: 30px;
+    height: auto;
+    opacity: 1;
+    animation-name: magnificent_popup;/*גורם ללוגו לרוץ קדימה*/
+    animation-duration: 3s;
+    animation-timing-function: linear;/*רץ לאט יותר*/
+
+}
+
+/*קשור לצורת ההגעה של הלוגו*/
+@keyframes magnificent_popup {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    70% {
+        opacity: 0.5;
+        transform: scale(1.05);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+body {
+    margin: 0px;
+}
+
+.link:hover {
+    cursor: pointer;
+    background-color: #e5e9e9;
+}
+
+.link {
+    background-color: transparent;
+    /* רקע שקוף */
+    color: #000000;
+    text-decoration: none;
+    margin-top: 20%;
+    margin-left: 3%;
+    left: 26%;
+    width: 12%;
+    height: 180px;
+    z-index: 2;
+    position: relative;
+    font-size: xx-large;
+    color: #62483b;
+    border-bottom: 6px solid #edaf88;
+    border-top: 6px solid #f2cb7c;
+    border-right: 6px solid #addad7;
+    border-left: 6px solid #dc97a9;
+    border-radius: 100%;
+    transition: 0.5s;
+}
+
+#txt {
+    margin-top: 110px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+#pic {
+    z-index: 3;
+    width: 100%;
+    border-top: #290606a7 solid 5px;
+}
+
+/*scroll*/
+body::-webkit-scrollbar {
+    width: 15px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: #cbc6c7;
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #dc97a9;
+    /* color of the scroll thumb */
+    border-radius: 15px;
+    /* roundness of the scroll thumb */
+    border: 3px solid #fbfaf8;
+    /* creates padding around scroll thumb */
+}

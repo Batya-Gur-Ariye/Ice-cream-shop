@@ -1,0 +1,97 @@
+body {
+    background-image: url("../pic/pic/backGround.jpg");
+    background-size: 100% auto ;
+            text-align: center;
+            cursor: pointer;
+}
+
+.img {
+    width: 80%;
+    margin: 3%;
+    margin-top: 10px
+}
+div{
+    align-items: end;
+    border-radius: 20px;
+    padding-top: 10%;
+    padding: 2%;
+    width: 80%;
+    margin-left: 10%;
+    background-color: white;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+     font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    color: rgb(97, 46, 22)
+}
+input{
+    border-radius: 20px;
+    padding: 1%;
+    width: 15%;
+    margin: 15px;
+    /* margin-left: 30%; */
+
+    background-color: white;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(97, 46, 22);
+}
+#btnPayment{
+    cursor: pointer;
+    transition: 0.5s;
+    border-bottom: 3.5px solid #edaf88;
+    border-top: 3.5px solid #f2cb7c;
+    border-right: 3.5px solid #addad7;
+    border-left: 3.5px solid #dc97a9;
+    border-radius: 3%;
+    color: rgb(12, 12, 12);
+    border-radius: 25px;
+}
+
+#btnPayment:hover{
+  background-color: #0b0b0b;
+  transition: 0.5s;
+  cursor: pointer;
+  color: white;
+}
+td{
+    /* background-color: white; */
+    width: 200px;
+    border: 20px solid white;
+    margin: 10px;
+}
+tr{    
+    /* box-shadow: rgba(90, 64, 64, 0.3) 0px 8px 16px -8px; */
+    border-bottom: #cbc6c7;
+    /* background-color: white; */
+
+}
+.delBag{
+    font-size: 100px;
+}
+.delBag:hover{
+     color: #e71010
+}
+
+/*scroll*/
+body::-webkit-scrollbar {
+    width: 15px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: #cbc6c7;
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(97, 46, 22);
+    /* color of the scroll thumb */
+    border-radius: 15px;
+    /* roundness of the scroll thumb */
+    border: 3px solid #fbfaf8;
+    /* creates padding around scroll thumb */
+}

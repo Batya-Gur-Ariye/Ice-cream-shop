@@ -1,0 +1,164 @@
+body {
+        background-image: url("../pic/pic/backGround.jpg");
+        background-size: 100% auto ;
+                text-align: center;
+                cursor: pointer;
+}
+
+h2 {
+    margin-top: 10%;
+    width: 100%;
+}
+
+div{
+    padding: 1px;
+    margin-top: 9%;
+    width: 50%;
+    height: 600px;
+    margin-left: 25%;
+    background-color: #fff;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    border-radius: 15px;
+
+
+}
+
+#welcome {
+    cursor: pointer;
+    color: #dc97a9;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7),
+        5px 5px 1px #f2cb7c,
+        6px 6px 2px rgba(0, 0, 0, 0.7),
+        10px 10px 1px #edaf88,
+        11px 11px 2px rgba(0, 0, 0, 0.7),
+        15px 15px 1px #addad7,
+        16px 16px 2px rgba(0, 0, 0, 0.7);
+    -webkit-animation: text-snake 1s infinite alternate;
+    -moz-animation: text-snake 1s infinite alternate;
+    -ms-animation: text-snake 1s infinite alternate;
+    animation: text-snake 1s infinite alternate;
+    font-size: 90px;
+    font-family: Arial;
+}
+
+@keyframes text-snake {
+    from {
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7),
+            5px 5px 1px #f2cb7c,
+            6px 6px 2px rgba(0, 0, 0, 0.7),
+            10px 10px 1px #edaf88,
+            11px 11px 2px rgba(0, 0, 0, 0.7),
+            15px 15px 1px #addad7,
+            16px 16px 2px rgba(0, 0, 0, 0.7);
+    }
+
+    to {
+        text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.7),
+            -5px 5px 1px #f2cb7c,
+            -6px 6px 2px rgba(0, 0, 0, 0.7),
+            -10px 10px 1px #edaf88,
+            -11px 11px 2px rgba(0, 0, 0, 0.7),
+            -15px 15px 1px #addad7,
+            -16px 16px 2px rgba(0, 0, 0, 0.7);
+    }
+}
+
+#btnOk2 {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #dc97a9;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    font-family: Arial;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#btnOk2:hover {
+    background-color: #addad7;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#idPass {
+    cursor: pointer;
+    border: 1px solid rgb(0, 0, 0);
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    font-family: Arial;
+    color: black;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#idName {
+    cursor: pointer;
+    border: 1px solid rgb(0, 0, 0);
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    font-family: Arial;
+    color: black;
+    border-radius: 25px;
+    text-align: center;
+
+}
+
+
+#btnPayment {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    overflow: visible;
+    font: inherit;
+    line-height: normal;
+    cursor: pointer;
+    /* -moz-user-select: text; */
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px 82px 20px;
+    background-color: #fff;
+    color: #666;
+    border: 2px solid #666;
+    border-radius: 6px;
+    transition: all .5s ease;
+}
+
+#btnPayment:-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+#btnPayment {
+    /* overflow: hidden; */
+    position: relative;
+}
+
+#btnPayment:after {
+    content: '';
+    display: block;
+    height: 7px;
+    width: 100%;
+    background-image: repeating-linear-gradient(45deg, #666, #666 1px, transparent 2px, transparent 5px);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-top: 1px solid #666;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-size: 7px 7px;
+}
+
+#btnPayment:hover {
+    background-color: #67e55a;
+    color: #fff;
+    border-color: #222;
+}
+
+#btnPayment:hover:after {
+    background-image: repeating-linear-gradient(45deg, #fff, #fff 1px, transparent 2px, transparent 5px);
+    border-top: 1px solid #000;
+    -webkit-animation: stripe-slide 12s infinite linear forwards;
+    animation: stripe-slide 12s infinite linear forwards;
+}

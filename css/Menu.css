@@ -1,0 +1,58 @@
+body {
+    background-image: url("../pic/pic/backGround.jpg");
+    background-size: 100% auto ;
+            text-align: center;
+       padding:20px;
+
+
+}
+.img {
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    width: 25%;
+    margin: 3%;
+    margin-top: 0px
+}
+
+.img:hover {
+    cursor: pointer;
+}
+ 
+.myProduct {
+    width: 25%;
+    margin: 5%;
+    margin-top: 100px;
+    z-index: 1;
+    position: relative;
+    float: right;
+}
+
+.myDiv {
+    position: absolute;
+    z-index: 2;
+    margin-top: 150px;
+    width: 50%;
+    text-align: end;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+}
+/*scroll*/
+body::-webkit-scrollbar {
+    width: 15px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: #cbc6c7;
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #d3bfb6;
+    /* color of the scroll thumb */
+    border-radius: 15px;
+    /* roundness of the scroll thumb */
+    border: 3px solid #fbfaf8;
+    /* creates padding around scroll thumb */
+}
